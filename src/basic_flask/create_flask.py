@@ -41,7 +41,7 @@ path = os.getcwd()
 
 #Path for this file 
 this_path = pathlib.Path(__file__).parent.resolve()
-def run():
+def create():
     subprocess.run("python -m venv .venv")
     subprocess.run("mkdir Routes")
     subprocess.run("mkdir Modules")
@@ -74,6 +74,7 @@ def run():
 
     with open(f"{path}\\requirements.txt", "w") as requirements:
         subprocess.run("pip3 freeze > requirements.txt", stdout=requirements)
+
 
 
 
