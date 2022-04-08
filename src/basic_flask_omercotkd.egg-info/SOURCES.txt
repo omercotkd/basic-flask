@@ -2,6 +2,8 @@ LICENSE
 README.md
 pyproject.toml
 setup.cfg
+src/basic_flask/__init__.py
+src/basic_flask/create_flask.py
 src/basic_flask_omercotkd.egg-info/PKG-INFO
 src/basic_flask_omercotkd.egg-info/SOURCES.txt
 src/basic_flask_omercotkd.egg-info/dependency_links.txt
