@@ -9,3 +9,6 @@ src/basic_flask.egg-info/SOURCES.txt
 src/basic_flask.egg-info/dependency_links.txt
 src/basic_flask.egg-info/entry_points.txt
 src/basic_flask.egg-info/top_level.txt
+src/basic_flask/creation_files/__init__.py
+src/basic_flask/creation_files/activate_this.py
+src/basic_flask/creation_files/main.py
