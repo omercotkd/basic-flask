@@ -22,7 +22,7 @@ def create():
 
     # Creates env file with random secret key 
     with open(f"{path}\\.env", "w") as env:
-        env.write(f"SECRET_KEY={secrets.token_hex(48)}\n")
+        env.write(f'SECRET_KEY="{secrets.token_hex(48)}"\n')
 
     # Create .gitignore with some data
     with open(f"{path}\\.gitignore", "w") as env:
